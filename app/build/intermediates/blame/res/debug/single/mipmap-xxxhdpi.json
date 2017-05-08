@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/adavies/Projects/ashdavies/sample/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/adavies/Projects/ashdavies/sample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adavies/Projects/ashdavies/sample/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/adavies/Projects/ashdavies/sample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

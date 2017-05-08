@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/adavies/Projects/ashdavies/sample/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/adavies/.android/build-cache/4121460c605187d8be953e8576c00dac81ec4fea/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/adavies/Projects/ashdavies/sample/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/adavies/.android/build-cache/4121460c605187d8be953e8576c00dac81ec4fea/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/adavies/Projects/ashdavies/sample/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/adavies/.android/build-cache/4121460c605187d8be953e8576c00dac81ec4fea/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/adavies/Projects/ashdavies/sample/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/adavies/.android/build-cache/4121460c605187d8be953e8576c00dac81ec4fea/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]
