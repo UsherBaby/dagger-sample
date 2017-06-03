@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/license-apache%202.0-blue.svg)](https://github.com/ashdavies/dagger-sample/blob/master/LICENSE.txt)
 
 NOTE:
+
 In kotlin 
 ```
 @Module
