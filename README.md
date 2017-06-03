@@ -26,6 +26,18 @@ public class MainApplication extends DaggerApplication {
 cause MainApplication bound mutiple time error
 
 solution:
-change ```DaggerApplicationComponent.builder().create(this);``` to ```DaggerApplicationComponent.builder().build();```
+change 
+```DaggerApplicationComponent.builder().create(this);``` 
+to
+```DaggerApplicationComponent.builder().build();```
 
+or remove 
+```
+@Module
+abstract class ApplicationModule {
+
+  @Binds
+  public abstract Application application(MainApplication mainApplication);
+}
+```
 
