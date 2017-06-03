@@ -2,3 +2,29 @@
 [![Build Status](https://img.shields.io/travis/ashdavies/dagger-sample.svg)](https://travis-ci.org/ashdavies/dagger-sample)
 [![License](https://img.shields.io/badge/license-apache%202.0-blue.svg)](https://github.com/ashdavies/dagger-sample/blob/master/LICENSE.txt)
 
+NOTE:
+In kotlin 
+```
+@Module
+abstract class ApplicationModule {
+
+  @Binds
+  public abstract Application application(MainApplication mainApplication);
+}
+```
+and 
+```
+public class MainApplication extends DaggerApplication {
+
+  @Override
+  protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
+    return DaggerApplicationComponent.builder().create(this);
+  }
+}
+```
+cause MainApplication bound mutiple time
+
+solution:
+change ```DaggerApplicationComponent.builder().create(this);``` to ```DaggerApplicationComponent.builder().build();```
+
+
