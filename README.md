@@ -13,26 +13,12 @@ abstract class ApplicationModule {
   public abstract Application application(MainApplication mainApplication);
 }
 ```
-and 
-```
-public class MainApplication extends DaggerApplication {
 
-  @Override
-  protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
-    return DaggerApplicationComponent.builder().create(this);
-  }
-}
-```
 cause MainApplication bound mutiple time error
 
 solution:
 
-change 
-```DaggerApplicationComponent.builder().create(this);``` 
-to
-```DaggerApplicationComponent.builder().build();```
-
-or remove 
+remove 
 ```
 @Module
 abstract class ApplicationModule {
